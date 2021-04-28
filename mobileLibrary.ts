@@ -49,7 +49,11 @@ export class MobileLibrary{
         this.totalPrice = change;
     }
 
+<<<<<<< HEAD
     public totalPriceCalculation():number{
+=======
+    private totalPriceCalculation():number{
+>>>>>>> rama001
         let i=0;
         let totalPlus = 0;
         do{
@@ -59,6 +63,25 @@ export class MobileLibrary{
          return totalPlus;
     }
 
+<<<<<<< HEAD
 
+=======
+    public printLibrary(library:MobileLibrary){
+
+        console.log(`This is all my mobiles: \n`);
+
+        let i=0;
+
+        do{
+
+            this.mobiles[i].printMobile();
+            console.log(i);
+            i++
+
+        }while(i<this.mobiles.length)
+
+        this.totalPriceCalculation();
+    }
+>>>>>>> rama001
 
 }

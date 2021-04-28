@@ -1,5 +1,5 @@
 //@kehomaxd
-import {Mobile} from "../Repaso2/Mobile";
+import {Mobile} from "./Mobile";
 import {MobileLibrary} from "./mobileLibrary";
 
 let cel1 = new Mobile ("Redmi Note 8T", "M1908C3XG", "Xiaomi", 8, "Blue", true, 5, 180);

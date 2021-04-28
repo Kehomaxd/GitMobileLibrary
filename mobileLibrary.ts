@@ -1,6 +1,6 @@
 //@kehomaxd
 
-import {Mobile} from "../Repaso2/Mobile";
+import {Mobile} from "./Mobile";
 
 export class MobileLibrary{
 
@@ -48,12 +48,8 @@ export class MobileLibrary{
     setTotal(change){
         this.totalPrice = change;
     }
-
-<<<<<<< HEAD
-    public totalPriceCalculation():number{
-=======
+    
     private totalPriceCalculation():number{
->>>>>>> rama001
         let i=0;
         let totalPlus = 0;
         do{
@@ -63,9 +59,7 @@ export class MobileLibrary{
          return totalPlus;
     }
 
-<<<<<<< HEAD
 
-=======
     public printLibrary(library:MobileLibrary){
 
         console.log(`This is all my mobiles: \n`);
@@ -82,6 +76,5 @@ export class MobileLibrary{
 
         this.totalPriceCalculation();
     }
->>>>>>> rama001
 
 }
